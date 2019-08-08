@@ -1,6 +1,8 @@
 package com.xuxi.litepal;
 
-public class Book {
+import org.litepal.crud.LitePalSupport;
+
+public class Book extends LitePalSupport {
 
     private int id;
 
